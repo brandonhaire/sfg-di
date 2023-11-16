@@ -36,3 +36,18 @@ to source code changes. If you encounter a problem you can compare your code to 
 * Like Spring Framework Guru on [Facebook](https://www.facebook.com/springframeworkguru/)
 * Follow Spring Framework Guru on [Twitter](https://twitter.com/spring_guru)
 * Connect with John Thompson on [LinkedIn](http://www.linkedin.com/in/springguru)
+
+
+## Launch configuration added from External Configuration Lectures (for VSCode)
+```json
+{
+    "type": "java",
+    "name": "SFG-DI",
+    "request": "launch",
+    "mainClass": "guru.springframework.sfgdi.SfgDiApplication",
+    "projectName": "sfg-di",
+    "env": {
+    "GURU_USERNAME": "UserFromEnvVar!"
+    },
+    "args": "--guru.password=PwdFromCmdLine --guru.username=UserFromCmdLine"
+}
