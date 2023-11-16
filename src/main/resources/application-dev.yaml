@@ -1,0 +1,4 @@
+guru:
+    username: YamlDevDBUser
+    password: YamlDevPassword
+    jdbcurl: YamlUrl
